@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- נשתמש בפונטים מגוגל
+    OPEN SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <title>סופרמן - שירותי הצלה וגבורה מעולם אחר</title>
+</head>
+
+<body>
+    <!-- המקטע שיכיל את שלושת המקטעים הראשיים של הדף, זה שבין הלוגו לפוטר -->
+    <!-- המקטע העליון בדף המכיל את הלוגו -->
+    <header>
+        <img id="logo" src="./img/Superman_Logo.png" alt="סופר מן - הצלה ליחידים ולקבוצות בשעת צרה">
+    </header>
+    <!-- המקטע הכחול שקורא לפעולה לשליחת הודעה -->
+    <main>
+        <div class="callToAction">
+            <div class="mainHeadline">
+                <h1>זה מטוס, לא! זו ציפור, לא! זה סופרמן!!!</h1>
+                <h2>קראת לעזרה? הנה אני בא</h2>
+                <!-- הכפתור הכתום להתקשרות ישירה שמופיע רק בטלפונים -->
+                <a id="callnow" href="199-199-justiceleauge" class="button">
+                    <img src="./img/callNow.png" id="callnowlogo" alt="Call Now and be Saved">
+                    התקשרו עכשיו
+                </a>
+                <div class="callnowborder"></div>
+
+
+                <p>בכל זמן ובכל מקום למשימה נכון. סופרמן נלחם מלחמת צדק למען האדם לשלום בינלאומי ועכשיו במחירי מבצע
+                    גם
+                    ליחידים.</p>
+                <p>נמצאים בצרה? הרעים מציקים לכם? זקוקים לעזרה דחופה? גם אם נתקעתם עם הרכב בצד הדרך אני בא. קראו
+                    לעזרה
+                    עכשיו ולא תצטערו, זמין עבורכם 24/7
+                    ושומע אותכם למרחקים גם אם תלחשו...</p>
+            </div>
+            <div class="contactForm">
+                <h2>בשעת צרה, קוראים לעזרה!</h2>
+                <div><label for="name"> שם הקורבן: <span class="req-field">*</span></label>
+                    <input type="text" id="name" required />
+
+
+                    <label for="email">דוא"ל: <span class="req-field">*</span></label></label>
+                    <input id="email" type="email" required />
+
+
+                    <label for="phone"> טלפון: <span class="req-field">*</span></label></label>
+                    <input id="phone" type="phone" required />
+                </div>
+
+                <button id="help" type="submit">הצילו !!!</button>
+                <p id="privacyForm">הפרטיות שלך היא מהמעלה הראשונה - הפרטים שלך ישארו חסויים</p>
+            </div>
+        </div>
+
+        <!-- המקטע הלבן הכולל את היתרונות של העסק -->
+        <div class="testimonials">
+            <div class="mainAdvantage">
+                <img src="./img/mainAdvantage.png" alt="הגיבור על הכי טוב שיש">
+                <h2>הכי חזק והכי מהיר</h2>
+                <p> לא מהעולם הזה עם יכולות סופר-על אין דבר שיעצור אותי, לא לחינם קוראים לי איש הברזל.</p>
+            </div>
+            <div class="specialOffer">
+                <img src="./img/specialOffer.png" alt="מתנה לכל אחד שיקרא לעזרה בפעם הראשונה">
+                <h2>הצלה ראשונה חינם</h2>
+                <p>גם גיבור על צריך לאכול אבל מבטיח לכם הצלה ראשונה חינם ומחירים נוחים לכל נפש למתמידים עם שלל הנחות
+                    וקופונים במשך כל השנה.</p>
+            </div>
+            <div class="aboutYourBusiness">
+                <img src="./img/aboutYourBusiness.png" alt="קצת על שירותי גיבור על">
+                <h2>בכל זמן ובכל מקום</h2>
+                <p>עם הגעה למהירות האור בהרף עין ושמיעה פנומנלית אני זמין לכם 24/7 בכל פינה על הגלובוס ובכל תנאי מזג
+                    האוויר.</p>
+            </div>
+        </div>
+
+        <!-- המקטע האפור המכיל מידע קצר על בעל העסק -->
+        <div class="about">
+            <p>
+                <img id="aboutImg" src="./img/superman_about.jpg" alt="סופרמן - הצלה ללא פשרות">
+                אומנם נולדתי בקריפטון,
+                אבל גדלתי וחונכתי על ערכי החופש והצדק של בני האדם. מאז היותי ילד פעלתי למען החלש
+                ודאגתי לצדק מקומי איפה שהייתי יכול לעזור ומאז הקדתי את חיי הבוגרים לעזרה, הצלת חיים, עשיית צדק לכל אחת
+                ואחד מכם ללא הבדל דת, גזע ומין - והן לשלום עולמי ללא התערבות גסה בממשלות ובכלל בפוליטיקה
+            </p>
+
+            <div class="border"></div>
+            <p>קאל-אל</p>
+            <p id="CEO">מייסד ומנכ"ל שותף בליגת הצדק</p>
+        </div>
+    </main>
+
+    <!-- הפוטר שבתחתית הדף -->
+    <footer>
+        <ul>
+            <li id="copyright">&copy; כל הזכויות שמורות לליגת הצדק</li>
+            <li class="footerMenu">|</li>
+            <li class="footerMenu"><a href="#">אודות</a></li>
+            <li class="footerMenu">|</li>
+            <li class="footerMenu"><a href="#">תנאי שימוש</a></li>
+            <li class="footerMenu">|</li>
+            <li class="footerMenu"><a href="#">פרטיות</a></li>
+            <li class="footerMenu">|</li>
+            <li class="footerMenu"><a href="#">צור קשר</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
